@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.card h2 {
+    margin: 20px 0;
+}
+
+.card p {
+    margin: 20px 0;
+}
+
+.card input[type="text"],
+.card input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:#C51B1B;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px;
+    align-items: center;
+}
+.text{
+    font-size: 38px;
+    color: #FFD500;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-self:center ;
+    background-color:darkred;
+    align-items: center;
+    justify-content: space-around;
+}
+.timkiem{
+    width: 600px;
+    height: 30px;
+}
+.cac-holder{
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+
+}
+.cac{
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border:1px solid #333;
+    margin:20px 40px;
+    transition: all 0.4s ease-in;
+
+}
+h2{
+    font-size: 15px;
+}
+img{
+    width: 170px;
+    height: 170px;
+    align-self: center;
+}
+.content{
+    display: flex;
+}
+.side{
+    align-self: flex-end;
+    width: 300px;
+    height: 920px;
+    border:2px solid #FFD500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ban-chay-nhat{
+    background-image:url( https://gioquaviet.weba.vn/web/shop/images/gioquaviet/slider/bg_title_yellow.png);
+    text-align: center;
+    height: 20px;
+}
+.small-cac{
+    width: 300px;
+    height: 300px;
+    transition: all 0.4s ease-in;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} 
+.price{
+    color:red;
+}
+.cac:hover{
+    background:#E6E6E6;
+    border-color: gray;
+}
+.slides{
+    width: 100%;
+    height: 350px;
+}
+.index{
+    background-image:url(./img/img\ bg.png);
+}
+.nav-text{
+    font-size: 25px;
+    color: white;
+  
+}
+.nav-con{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.small-cac:hover{
+    background:#E6E6E6;
+    border-color: gray;
+}
+.nav-text:hover{
+    color: #FFD500;
+}
+.dat-hang{
+    width: 150px;
+    height: 60px;
+}
+.s-img{
+    height: 150px;
+    width: 150px;
+    justify-self: center;
+}
+.dat-hang:hover{
+    background:#E6E6E6;
+    border-color: gray;
+}
+.but{
+    width: 100px;
+    height: 30px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    color:white;
+
+}
+.chinh{
+    color:gray;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.thong-tin{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+
+}
+.dat-han{
+    width: 150px;
+    height: 50px;
+}
